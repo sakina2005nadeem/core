@@ -1,0 +1,100 @@
+/*Prerequisites*/
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	outline:none !important;
+}
+
+html {
+	scroll-behavior:smooth;
+}
+
+body{
+	background-color: var(--color-one);
+	overflow-x: hidden;
+	transition: 0.4s;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.mainBod{
+	display: none;
+}
+
+/*NAVBAR*/
+
+.navb{
+    background-color:transparent;
+    font-size:2vw;
+    font-family:'Lato', sans-serif;
+    text-align:center;
+    top:0;
+	z-index:999;
+}
+
+/*HOME*/
+.home {
+    width:100%;
+    height:100vh;
+    top:0;
+    right:0;
+    left:0;
+    background-color: #000;
+    overflow-x:hidden
+}
+
+.home::before{
+    position:absolute;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    background-image: ;
+    content: "";
+}
+
+.home h1{
+    font-family:'Lato', sans-serif;
+    margin-top:20%;
+    color:beige;
+    font-size:7vw;
+    float:center ;
+    vertical-align: middle;
+}
+
+/*FEATURES*/
+
+.features{
+    background-color: black;
+    padding: 2%;
+    height:100vh;
+}
+
+.features h1{
+    font-family:'Lato', sans-serif;
+    text-align:center;
+    font-size:5vw;
+    color:#D4AF37;
+    padding:2vw;
+}
+
+.features .card {
+    background-color:#b1bbb1;
+    margin:2%;
+    text-align:center;
+}
+
+.features .card-body {
+    background-color:#b1bbb1;
+    text-align:center;
+}
