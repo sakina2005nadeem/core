@@ -76,6 +76,7 @@ a:hover{
 
 .features{
     background-color: black;
+    background-image:url("bg.jpg");
     padding: 2%;
     height:100vh;
 }
